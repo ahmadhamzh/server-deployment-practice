@@ -21,7 +21,7 @@ app.get('/data',stamper, (req,res)=>{
     res.status(200).json(fullNameObject)
 })
 
-app.get('/bad', (req, res,)=>{
+app.get('/bad', (req, res)=>{
 throw new Error('you made an error')
 })
 
